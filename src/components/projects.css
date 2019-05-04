@@ -15,8 +15,8 @@
 @media (max-width: 991px) {
   .projects-group {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    column-gap: 10px;
+    grid-gap: 20px;
+    column-gap: 20px;
   }
   .Card {
     width: 400px;
@@ -26,7 +26,7 @@
 @media (max-width: 767px) {
   .projects-group {
     grid-template-columns: repeat(1, 1fr);
-    column-gap: 10px;
+    column-gap: 20px;
   }
   .Card {
     width: 250px;
