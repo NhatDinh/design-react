@@ -16,7 +16,6 @@ class Header extends React.Component {
 
   handleScroll = event => {
     const topOffset = window.pageYOffset
-    console.log(topOffset)
     if (topOffset > 50) {
       this.setState({ hasScrolled: true })
     } else {

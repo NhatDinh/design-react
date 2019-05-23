@@ -10,10 +10,7 @@
 
 .header-containerScrolled {
   background-color: black;
-}
-
-.header-containerScrolled a {
-  font-size: 1000px;
+  font-size: 20px;
 }
 
 .talk-btnScrolled a {
