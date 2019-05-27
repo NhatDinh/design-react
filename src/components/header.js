@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import '../styles/Header.css'
+import '../styles/header.css'
 
 class Header extends React.Component {
   constructor(props) {
@@ -43,9 +43,9 @@ class Header extends React.Component {
             this.state.hasScrolled ? 'talk-btn talk-btnScrolled' : 'talk-btn'
           }
         >
-          <Link to="#">
+          <div className="talk-btn">
             <a href="https://twitter.com/nhat_ldinh">Twit Me</a>
-          </Link>
+          </div>
         </div>
       </div>
     )
