@@ -46,8 +46,8 @@ body {
   border-radius: 20px;
   background-color: black;
   display: flex;
-  height: 30px;
   width: 200px;
+  padding: 10px 20px;
   text-transform: uppercase;
   justify-content: center;
   cursor: pointer;

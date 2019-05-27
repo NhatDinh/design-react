@@ -1,0 +1,31 @@
+.m-container {
+  padding: 20px 40px;
+}
+
+.work-btn a {
+  font-size: 22px;
+  border-radius: 20px;
+  background-color: black;
+  display: flex;
+  width: 200px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.work-btn a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transform: translateY(-10px);
+  color: greenyellow;
+}
+
+.blog-hero-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-grap: 20px;
+}

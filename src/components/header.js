@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import './Header.css'
+import '../styles/header.css'
 
 class Header extends React.Component {
   constructor(props) {
@@ -35,14 +35,16 @@ class Header extends React.Component {
         <Link to="/">
           <img src={require('../images/logo.svg')} />
         </Link>
-        <Link to="#">About Me</Link>
-        <Link to="#">Blog</Link>
+        <Link to="#about">About</Link>
+        <Link to="/blog">Blog</Link>
         <div
           className={
             this.state.hasScrolled ? 'talk-btn talk-btnScrolled' : 'talk-btn'
           }
         >
-          <Link to="#">Let's talk</Link>
+          <Link to="#">
+            <a href="https://twitter.com/nhat_ldinh">Twit Me</a>
+          </Link>
         </div>
       </div>
     )

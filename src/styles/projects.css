@@ -1,15 +1,12 @@
 .projects-container {
   width: 100vw;
   padding: 20px 20px 20px 20px;
-  align-items: center;
-  justify-content: center;
 }
 
 .projects-group {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
-  column-gap: 20px;
   position: relative;
 }
 
@@ -25,9 +22,16 @@
 }
 
 @media (max-width: 767px) {
+  .projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
   .projects-group {
     grid-template-columns: repeat(1, 1fr);
-    column-gap: 20px;
+    column-gap: 30px;
   }
   .Card {
     width: 250px;
@@ -35,16 +39,20 @@
 }
 
 .Card {
-  width: 300px;
-  height: 225px;
+  width: 350px;
+  height: 400px;
   position: relative;
   overflow: hidden;
   border-radius: 20px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.15);
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
   cursor: pointer;
   background-color: white;
-  text-align: center;
+  padding: 10px 20px;
+}
+
+.Card a {
+  text-decoration: none;
 }
 
 .Card img {
@@ -55,18 +63,14 @@
 .Card h3 {
   color: black;
   font-size: 30px;
-  margin: 20px 0 0 20px;
-  width: 190px;
   z-index: -1;
 }
 
 .Card p {
   color: black;
-  text-transform: uppercase;
   font-weight: 600;
   font-size: 18px;
   align-self: end;
-  margin: 0 0 20px 20px;
   z-index: -1;
 }
 
