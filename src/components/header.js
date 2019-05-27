@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import '../styles/header.css'
 
+import '../styles/header.css'
 class Header extends React.Component {
   constructor(props) {
     super(props)
