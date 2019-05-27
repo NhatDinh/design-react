@@ -5,7 +5,7 @@ import '../styles/blog.css'
 
 const Blog = () => (
   <div className="m-container">
-    <h1>Hey, I'm working on sth 😅 Would love to hear your opinions on it. </h1>
+    <h1>Hey, I'm working on sth 😅 Would love to hear your opinions! </h1>
     <div className="work-btn">
       <a href="https://twitter.com/nhat_ldinh">Twit Me</a>
     </div>
