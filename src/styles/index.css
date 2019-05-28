@@ -63,11 +63,11 @@ body {
 
 @media (max-width: 640px) {
   .hero-container h1 {
-    font-size: 40px;
+    font-size: 34px;
   }
 
   .hero-container p {
-    font-size: 30px;
+    font-size: 26px;
   }
 }
 
